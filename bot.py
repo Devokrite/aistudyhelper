@@ -18,7 +18,7 @@ from telegram.ext import (
 
 # === CONFIG: read keys from environment variables ===
 TELEGRAM_BOT_TOKEN = os.environ.get("8582279256:AAHCV9tVXyICtjLrpRbHpvhrh5T9t8jVyTk")
-OPENAI_API_KEY = os.environ.get("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")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 if not TELEGRAM_BOT_TOKEN:
     raise RuntimeError("TELEGRAM_BOT_TOKEN is not set in environment variables.")
